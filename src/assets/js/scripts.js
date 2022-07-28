@@ -1,12 +1,5 @@
-/*!
-* Start Bootstrap - Grayscale v7.0.5 (https://startbootstrap.com/theme/grayscale)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
-//
+const bootstrap = require('bootstrap');
+
 window.addEventListener('DOMContentLoaded', event => {
 
   // Navbar shrink function
@@ -15,6 +8,7 @@ window.addEventListener('DOMContentLoaded', event => {
     if (!navbarCollapsible) {
       return;
     }
+
     if (window.scrollY === 0) {
       navbarCollapsible.classList.remove('navbar-shrink')
     } else {
@@ -31,15 +25,16 @@ window.addEventListener('DOMContentLoaded', event => {
 
   // Activate Bootstrap scrollspy on the main nav element
   const mainNav = document.body.querySelector('#mainNav');
-//     if (mainNav) {
-//         new bootstrap.ScrollSpy(document.body, {
-//             target: '#mainNav',
-//             offset: 74,
-//         });
-//     };
+    if (mainNav) {
+        new bootstrap.ScrollSpy(document.body, {
+            target: '#mainNav',
+            offset: 74,
+        });
+    };
 
     // Collapse responsive navbar when toggler is visible
     const navbarToggler = document.body.querySelector('.navbar-toggler');
+
     const responsiveNavItems = [].slice.call(
         document.querySelectorAll('#navbarResponsive .nav-link')
     );

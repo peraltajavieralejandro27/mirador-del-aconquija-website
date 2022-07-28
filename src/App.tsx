@@ -1,5 +1,6 @@
 import React from 'react';
-import './assets/css/styles.css';
+import './assets/css/styles.scss';
+import './assets/css/custom.scss';
 import './assets/js/scripts';
 import Nav from "./components/layout/nav";
 import Header from "./components/layout/header";
@@ -8,6 +9,8 @@ import Footer from "./components/layout/footer";
 import Projects from "./components/sections/projects";
 import Signup from "./components/sections/signup";
 import Contact from "./components/sections/contact";
+import Book from "./components/sections/book";
+import Calendar from "./components/sections/calendar";
 
 function App() {
   return (
@@ -16,11 +19,15 @@ function App() {
 
       <Header/>
 
+      <Book/>
+
+      <Calendar/>
+
       <About/>
 
-      <Projects/>
+      {/*<Projects/>*/}
 
-      <Signup/>
+      {/*<Signup/>*/}
 
       <Contact/>
 
