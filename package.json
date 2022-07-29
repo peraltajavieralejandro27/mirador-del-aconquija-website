@@ -1,14 +1,22 @@
 {
   "name": "mirador-del-aconquija-website",
+  "homepage": "https://miradordelaconquija.github.io/miradordelaconquija",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fullcalendar/bootstrap5": "^5.11.2",
+    "@fullcalendar/core": "^5.11.2",
+    "@fullcalendar/daygrid": "^5.11.2",
+    "@fullcalendar/google-calendar": "^5.11.2",
+    "@fullcalendar/react": "^5.11.2",
     "@popperjs/core": "^2.11.5",
     "@types/jest": "^27.0.1",
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "bootstrap": "^5.2.0",
+    "bootstrap-icons": "^1.9.1",
+    "hover.css": "^2.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "6",
@@ -20,7 +28,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -35,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "sass": "^1.54.0"
   }
 }

@@ -25,6 +25,8 @@ const contactData = {
   country: 'Argentina',
   googleCalendar: {
     url: 'https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FArgentina%2FTucuman&title=Disponibilidad%20de%20fechas&showTitle=0&showNav=1&showPrint=0&showTabs=1&showCalendars=1&showTz=0&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZXMuYXIjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%2333B679&color=%230B8043',
+    apiKey: 'AIzaSyAKguWS1vrjWjzaSHtSFYIqL0ngrjD3s40',
+    id: 'peraltajavieralejandro27@gmail.com',
   }
 }
 

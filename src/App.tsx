@@ -1,6 +1,6 @@
 import React from 'react';
-import './assets/css/styles.scss';
-import './assets/css/custom.scss';
+import './assets/scss/styles.scss';
+import './assets/scss/custom.scss';
 import './assets/js/scripts';
 import Nav from "./components/layout/nav";
 import Header from "./components/layout/header";
@@ -11,10 +11,15 @@ import Signup from "./components/sections/signup";
 import Contact from "./components/sections/contact";
 import Book from "./components/sections/book";
 import Calendar from "./components/sections/calendar";
+import Preloader from "./components/layout/preloader";
+import 'hover.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function App() {
   return (
     <div className="App">
+      <Preloader/>
+
       <Nav/>
 
       <Header/>

@@ -5,7 +5,7 @@ import {siteData} from "../../data/data";
 
 const About = () => {
   return (
-    <section className="about-section text-center" id="about">
+    <section className="about-section text-center pt-5" id="about">
       <div className="container px-4 px-lg-5">
         <div className="row gx-4 gx-lg-5 justify-content-center px-5">
 
@@ -35,14 +35,7 @@ const About = () => {
               consectetur consequuntur dolor ducimus enim, excepturi expedita, fugiat nam natus nemo pariatur porro
               provident repudiandae suscipit.
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis consequuntur deserunt dolor impedit
-              nostrum obcaecati pariatur quae quo rerum sit. Aliquam eum fugiat rem sed! Consequatur deleniti minus ut
-              voluptas?
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi distinctio eum, illum incidunt iusto
-              laborum, laudantium magni minima natus nihil numquam perspiciatis qui quisquam quos ratione recusandae
-              vero voluptatem voluptatum.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cumque fugiat modi nulla omnis,
-              quisquam reiciendis. Culpa earum eius, eos explicabo facere incidunt magnam perspiciatis possimus, quam
-              ratione saepe similique!
+              nostrum obcaecati pariatur quae quo rerum sit.
             </p>
           </div>
 

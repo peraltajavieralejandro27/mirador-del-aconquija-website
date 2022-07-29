@@ -1,5 +1,6 @@
 import React from 'react';
 import mainLogo from '../../assets/img/LOGO.png';
+import ScrollAnimation from "../fragments/scroll_animation";
 
 const Header = () => {
   return (
@@ -27,9 +28,12 @@ const Header = () => {
               Complejo vacacional
             </h2>
 
-            <a className="btn btn-primary" href="#book">Reservar</a>
+            <a className="btn btn-outline-white hvr-hang book-button" href="#book">Reservar</a>
           </div>
         </div>
+
+        <ScrollAnimation/>
+
       </div>
     </header>
   );
