@@ -1,6 +1,4 @@
 import React from 'react';
-import aboutImage from '../../assets/img/about-2.jpg';
-import logoText from '../../assets/img/logo-text.png';
 import {siteData} from "../../data/data";
 
 const About = () => {
@@ -10,7 +8,7 @@ const About = () => {
         <div className="row gx-4 gx-lg-5 justify-content-center px-5">
 
           <div className='col-6 mb-5'>
-            <img src={logoText} alt={siteData.title} className='img-fluid image-white'/>
+            <img src='https://drive.google.com/uc?id=1fVxTfucDYm8CwzlPAF14tmrz9jmqsuXo' alt={siteData.title} className='img-fluid image-white'/>
           </div>
 
           <div className="col-lg-12">
@@ -40,7 +38,7 @@ const About = () => {
           </div>
 
           <div className='col-lg-6'>
-            <img src={aboutImage} alt='About image' className='img-fluid'/>
+            <img src='https://drive.google.com/uc?id=1lQxg0SfxXcCZb2DHbI4vbbCY7rTkxOPK' alt='About image' className='img-fluid'/>
           </div>
 
           <div className='col-lg-12'>
